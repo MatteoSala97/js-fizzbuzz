@@ -26,8 +26,8 @@ for ( let i = 1; i <= 100; i++){
         console.log(buzz)
     }   
     else 
-    gridHtml.innerHTML += `<div class="box">${variante}</div>`              //aggiunto a lezione
-    console.log (i)
+        gridHtml.innerHTML += `<div class="box">${i}</div>`                     //aggiunto a lezione
+        console.log (i)
 }
 
 
